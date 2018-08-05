@@ -24,6 +24,7 @@
 		7197F03D21179D0000F081D7 /* HeapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F03C21179D0000F081D7 /* HeapTest.swift */; };
 		7197F03E2117AC4500F081D7 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F03A2116BAF300F081D7 /* Heap.swift */; };
 		7197F03F2117AC4500F081D7 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F03A2116BAF300F081D7 /* Heap.swift */; };
+		7197F0432117C44700F081D7 /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0412117C39400F081D7 /* Subsets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,7 @@
 		7197F0382116B98400F081D7 /* TreeNodeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNodeTest.swift; sourceTree = "<group>"; };
 		7197F03A2116BAF300F081D7 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		7197F03C21179D0000F081D7 /* HeapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapTest.swift; sourceTree = "<group>"; };
+		7197F0412117C39400F081D7 /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +80,10 @@
 		7197F0012116881500F081D7 = {
 			isa = PBXGroup;
 			children = (
-				7197F00C2116881500F081D7 /* SwiftShuati */,
+				7197F0402117C32A00F081D7 /* Tis */,
 				7197F01E2116AB2300F081D7 /* Utils */,
 				7197F00B2116881500F081D7 /* Products */,
+				7197F00C2116881500F081D7 /* SwiftShuati */,
 				7197F02D2116B35000F081D7 /* ShuatiTest */,
 			);
 			sourceTree = "<group>";
@@ -98,11 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				7197F00D2116881500F081D7 /* main.swift */,
-				7197F0142116883300F081D7 /* MergeArrays.swift */,
-				7197F01621168A2700F081D7 /* TwoSums.swift */,
-				7197F01821168B7700F081D7 /* ValidParenthesis.swift */,
-				7197F01A21168DDF00F081D7 /* HammingDistance.swift */,
-				7197F01C2116AB1D00F081D7 /* LevelOrderTraversal.swift */,
 			);
 			path = SwiftShuati;
 			sourceTree = "<group>";
@@ -127,6 +125,19 @@
 				7197F0302116B35000F081D7 /* Info.plist */,
 			);
 			path = ShuatiTest;
+			sourceTree = "<group>";
+		};
+		7197F0402117C32A00F081D7 /* Tis */ = {
+			isa = PBXGroup;
+			children = (
+				7197F0142116883300F081D7 /* MergeArrays.swift */,
+				7197F01621168A2700F081D7 /* TwoSums.swift */,
+				7197F01821168B7700F081D7 /* ValidParenthesis.swift */,
+				7197F01A21168DDF00F081D7 /* HammingDistance.swift */,
+				7197F01C2116AB1D00F081D7 /* LevelOrderTraversal.swift */,
+				7197F0412117C39400F081D7 /* Subsets.swift */,
+			);
+			path = Tis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +235,7 @@
 				7197F0152116883300F081D7 /* MergeArrays.swift in Sources */,
 				7197F0222116ADA100F081D7 /* Queue.swift in Sources */,
 				7197F00E2116881500F081D7 /* main.swift in Sources */,
+				7197F0432117C44700F081D7 /* Subsets.swift in Sources */,
 				7197F01B21168DDF00F081D7 /* HammingDistance.swift in Sources */,
 				7197F01D2116AB1D00F081D7 /* LevelOrderTraversal.swift in Sources */,
 				7197F01921168B7700F081D7 /* ValidParenthesis.swift in Sources */,

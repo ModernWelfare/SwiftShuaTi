@@ -27,6 +27,7 @@ class Heap<Element: Comparable> {
         guard let index = elements.index(of: element) else {
             return
         }
+
         siftUp(at: index)
     }
 
