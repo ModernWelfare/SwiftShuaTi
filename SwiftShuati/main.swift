@@ -10,4 +10,4 @@ import Foundation
 
 print("Hello world!")
 
-Subsets().test()
+GroupAnagrams().test()

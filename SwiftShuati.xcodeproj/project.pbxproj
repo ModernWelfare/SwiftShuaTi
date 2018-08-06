@@ -25,6 +25,7 @@
 		7197F03E2117AC4500F081D7 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F03A2116BAF300F081D7 /* Heap.swift */; };
 		7197F03F2117AC4500F081D7 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F03A2116BAF300F081D7 /* Heap.swift */; };
 		7197F0432117C44700F081D7 /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0412117C39400F081D7 /* Subsets.swift */; };
+		7197F0452117C75300F081D7 /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0442117C75300F081D7 /* GroupAnagrams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,7 @@
 		7197F03A2116BAF300F081D7 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		7197F03C21179D0000F081D7 /* HeapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapTest.swift; sourceTree = "<group>"; };
 		7197F0412117C39400F081D7 /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
+		7197F0442117C75300F081D7 /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				7197F01A21168DDF00F081D7 /* HammingDistance.swift */,
 				7197F01C2116AB1D00F081D7 /* LevelOrderTraversal.swift */,
 				7197F0412117C39400F081D7 /* Subsets.swift */,
+				7197F0442117C75300F081D7 /* GroupAnagrams.swift */,
 			);
 			path = Tis;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7197F0202116AB2F00F081D7 /* TreeNode.swift in Sources */,
+				7197F0452117C75300F081D7 /* GroupAnagrams.swift in Sources */,
 				7197F03E2117AC4500F081D7 /* Heap.swift in Sources */,
 				7197F01721168A2700F081D7 /* TwoSums.swift in Sources */,
 				7197F0242116AF9000F081D7 /* ListNode.swift in Sources */,
