@@ -11,3 +11,6 @@ import Foundation
 print("Hello world!")
 
 GroupAnagrams().test()
+
+let string = "This is a string"
+
