@@ -21,4 +21,10 @@ class TreeNodeTest: XCTestCase {
         XCTAssert(root?.right?.left?.value == 15)
         XCTAssert(root?.right?.right?.value == 7)
     }
+
+    func testSeDese() {
+        let input = [3,9,20,nil,nil,15,7]
+        let root = TreeNode.deserialize(input: input)!
+        XCTAssertEqual(TreeNode.serialize(root: root), input)
+    }
 }

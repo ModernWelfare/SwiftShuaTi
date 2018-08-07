@@ -14,6 +14,8 @@ class KthLargestElementInArray {
         return quickSelect(nums: &ourNums, k: k - 1, begin: 0, end: nums.count)
     }
 
+    // Putting indexes in so that I don't need to copy the array.
+    // Same for the inout, reduce copying as much as possible.
     func quickSelect(nums: inout [Int], k: Int, begin: Int, end: Int) -> Int {
         let anchor = nums[end - 1]
 
