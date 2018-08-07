@@ -32,6 +32,7 @@
 		7197F04C211804FE00F081D7 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F048211802FF00F081D7 /* String+.swift */; };
 		7197F051211807E100F081D7 /* RegexMatchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F050211807E100F081D7 /* RegexMatchingTest.swift */; };
 		7197F0522118081C00F081D7 /* RegexMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0462118012C00F081D7 /* RegexMatching.swift */; };
+		7197F0542119623E00F081D7 /* KthLargestElementInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0532119623E00F081D7 /* KthLargestElementInArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,7 @@
 		7197F048211802FF00F081D7 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		7197F04A2118047B00F081D7 /* StringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
 		7197F050211807E100F081D7 /* RegexMatchingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexMatchingTest.swift; sourceTree = "<group>"; };
+		7197F0532119623E00F081D7 /* KthLargestElementInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementInArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				7197F0412117C39400F081D7 /* Subsets.swift */,
 				7197F0442117C75300F081D7 /* GroupAnagrams.swift */,
 				7197F0462118012C00F081D7 /* RegexMatching.swift */,
+				7197F0532119623E00F081D7 /* KthLargestElementInArray.swift */,
 			);
 			path = Tis;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				7197F0152116883300F081D7 /* MergeArrays.swift in Sources */,
 				7197F0472118012C00F081D7 /* RegexMatching.swift in Sources */,
 				7197F0222116ADA100F081D7 /* Queue.swift in Sources */,
+				7197F0542119623E00F081D7 /* KthLargestElementInArray.swift in Sources */,
 				7197F00E2116881500F081D7 /* main.swift in Sources */,
 				7197F0432117C44700F081D7 /* Subsets.swift in Sources */,
 				7197F01B21168DDF00F081D7 /* HammingDistance.swift in Sources */,
