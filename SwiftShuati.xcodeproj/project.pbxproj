@@ -33,6 +33,9 @@
 		7197F051211807E100F081D7 /* RegexMatchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F050211807E100F081D7 /* RegexMatchingTest.swift */; };
 		7197F0522118081C00F081D7 /* RegexMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0462118012C00F081D7 /* RegexMatching.swift */; };
 		7197F0542119623E00F081D7 /* KthLargestElementInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0532119623E00F081D7 /* KthLargestElementInArray.swift */; };
+		C9997B9021220321002446E4 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9997B8F21220321002446E4 /* DataModel.swift */; };
+		C9997B932122045C002446E4 /* DataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9997B922122045C002446E4 /* DataModelTests.swift */; };
+		C9997B942122048A002446E4 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9997B8F21220321002446E4 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +74,8 @@
 		7197F04A2118047B00F081D7 /* StringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
 		7197F050211807E100F081D7 /* RegexMatchingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexMatchingTest.swift; sourceTree = "<group>"; };
 		7197F0532119623E00F081D7 /* KthLargestElementInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementInArray.swift; sourceTree = "<group>"; };
+		C9997B8F21220321002446E4 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		C9997B922122045C002446E4 /* DataModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,7 @@
 		7197F0012116881500F081D7 = {
 			isa = PBXGroup;
 			children = (
+				C9997B8E2122030B002446E4 /* Experiments */,
 				7197F0402117C32A00F081D7 /* Tis */,
 				7197F01E2116AB2300F081D7 /* Utils */,
 				7197F00B2116881500F081D7 /* Products */,
@@ -134,6 +140,7 @@
 		7197F02D2116B35000F081D7 /* ShuatiTest */ = {
 			isa = PBXGroup;
 			children = (
+				C9997B9121220443002446E4 /* Experiments */,
 				7197F0302116B35000F081D7 /* Info.plist */,
 				7197F04F211807D400F081D7 /* Tis */,
 				7197F04E211807CB00F081D7 /* Utils */,
@@ -174,6 +181,22 @@
 				7197F050211807E100F081D7 /* RegexMatchingTest.swift */,
 			);
 			path = Tis;
+			sourceTree = "<group>";
+		};
+		C9997B8E2122030B002446E4 /* Experiments */ = {
+			isa = PBXGroup;
+			children = (
+				C9997B8F21220321002446E4 /* DataModel.swift */,
+			);
+			path = Experiments;
+			sourceTree = "<group>";
+		};
+		C9997B9121220443002446E4 /* Experiments */ = {
+			isa = PBXGroup;
+			children = (
+				C9997B922122045C002446E4 /* DataModelTests.swift */,
+			);
+			path = Experiments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +292,7 @@
 				7197F03E2117AC4500F081D7 /* Heap.swift in Sources */,
 				7197F01721168A2700F081D7 /* TwoSums.swift in Sources */,
 				7197F0242116AF9000F081D7 /* ListNode.swift in Sources */,
+				C9997B9021220321002446E4 /* DataModel.swift in Sources */,
 				7197F0152116883300F081D7 /* MergeArrays.swift in Sources */,
 				7197F0472118012C00F081D7 /* RegexMatching.swift in Sources */,
 				7197F0222116ADA100F081D7 /* Queue.swift in Sources */,
@@ -292,9 +316,11 @@
 				7197F0372116B51E00F081D7 /* ListNode.swift in Sources */,
 				7197F03F2117AC4500F081D7 /* Heap.swift in Sources */,
 				7197F0342116B35900F081D7 /* QueueTest.swift in Sources */,
+				C9997B942122048A002446E4 /* DataModel.swift in Sources */,
 				7197F0352116B51E00F081D7 /* TreeNode.swift in Sources */,
 				7197F04B2118047B00F081D7 /* StringTest.swift in Sources */,
 				7197F0362116B51E00F081D7 /* Queue.swift in Sources */,
+				C9997B932122045C002446E4 /* DataModelTests.swift in Sources */,
 				7197F03D21179D0000F081D7 /* HeapTest.swift in Sources */,
 				7197F0522118081C00F081D7 /* RegexMatching.swift in Sources */,
 			);
@@ -422,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -431,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -447,6 +475,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = ModernWelfare.ShuatiTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -464,6 +493,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = ModernWelfare.ShuatiTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

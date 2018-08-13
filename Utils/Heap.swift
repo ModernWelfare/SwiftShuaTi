@@ -28,6 +28,9 @@ class Heap<Element: Comparable> {
             return
         }
 
+        elements.swapAt(index, elements.count - 1)
+        elements.removeLast()
+
         siftUp(at: index)
     }
 
@@ -37,6 +40,9 @@ class Heap<Element: Comparable> {
         }
 
         let top = elements[0]
+        
+        elements.swapAt(0, elements.count - 1)
+        elements.removeLast()
 
         // Merge the two heaps
         siftUp(at: 0)
@@ -60,22 +66,18 @@ class Heap<Element: Comparable> {
         let leftChildIndex = leftChild(of: index)
         let rightChildIndex = rightChild(of: index)
 
-        if rightChildIndex >= elements.count {
-            if leftChildIndex >= elements.count {
-                elements.remove(at: index)
-                return
-            } else {
-                elements.swapAt(index, leftChildIndex)
-                siftUp(at: leftChildIndex)
-            }
-        } else {
-            if elements[leftChildIndex] < elements[rightChildIndex] {
-                elements.swapAt(index, leftChildIndex)
-                siftUp(at: leftChildIndex)
-            } else {
-                elements.swapAt(index, rightChildIndex)
-                siftUp(at: rightChildIndex)
-            }
+        var smallestIndex: Int = index
+        if leftChildIndex < elements.count && elements[leftChildIndex] < elements[smallestIndex] {
+            smallestIndex = leftChildIndex
+        }
+
+        if rightChildIndex < elements.count && elements[rightChildIndex] < elements[smallestIndex] {
+            smallestIndex = rightChildIndex
+        }
+
+        if index != smallestIndex {
+            elements.swapAt(index, smallestIndex)
+            siftUp(at: smallestIndex)
         }
     }
 

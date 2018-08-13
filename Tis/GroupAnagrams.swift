@@ -10,14 +10,14 @@ import Foundation
 
 class GroupAnagrams {
     func groupAnagram(strings: [String]) -> [[String]] {
-        var dict: [[Int]:[String]] = [:]
+        var dict: [String:[String]] = [:]
 
         for s in strings {
             let code: [Int] = encodeString(s)
-            if dict[code] == nil {
-                dict[code] = []
+            if dict[code.description] == nil {
+                dict[code.description] = []
             }
-            dict[code]?.append(s)
+            dict[code.description]?.append(s)
         }
 
         var results: [[String]] = []

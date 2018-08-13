@@ -10,17 +10,17 @@ import Foundation
 
 class RegexMatching {
     func isMatch(string: String, regex: String) -> Bool {
-        var cache: [[Int]: Bool] = [:]
+        var cache: [String: Bool] = [:]
         return helper(string: string, regex: regex, sIndex: 0, rIndex: 0, cache: &cache)
     }
 
-    private func helper(string: String, regex: String, sIndex: Int, rIndex: Int, cache: inout [[Int]: Bool]) -> Bool {
-        if let cached = cache[[sIndex, rIndex]] {
+    private func helper(string: String, regex: String, sIndex: Int, rIndex: Int, cache: inout [String: Bool]) -> Bool {
+        if let cached = cache[[sIndex, rIndex].description] {
             return cached
         }
 
         if sIndex == string.count && rIndex == regex.count {
-            cache[[sIndex, rIndex]] = true
+            cache[[sIndex, rIndex].description] = true
             return true
         }
 
@@ -41,7 +41,7 @@ class RegexMatching {
             result = isCurrentMatch
                 && helper(string: string, regex: regex, sIndex: sIndex + 1, rIndex: rIndex + 1, cache: &cache)
         }
-        cache[[sIndex, rIndex]] = result
+        cache[[sIndex, rIndex].description] = result
         return result
     }
 }
