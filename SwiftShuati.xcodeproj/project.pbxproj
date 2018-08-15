@@ -36,6 +36,9 @@
 		C9997B9021220321002446E4 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9997B8F21220321002446E4 /* DataModel.swift */; };
 		C9997B932122045C002446E4 /* DataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9997B922122045C002446E4 /* DataModelTests.swift */; };
 		C9997B942122048A002446E4 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9997B8F21220321002446E4 /* DataModel.swift */; };
+		C9ACAEF82124A40500E479C9 /* LongestValidParenthesisStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ACAEF72124A40500E479C9 /* LongestValidParenthesisStrings.swift */; };
+		C9ACAEFA2124A51D00E479C9 /* LongestValidParenStringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ACAEF92124A51D00E479C9 /* LongestValidParenStringsTests.swift */; };
+		C9ACAEFB2124A54F00E479C9 /* LongestValidParenthesisStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ACAEF72124A40500E479C9 /* LongestValidParenthesisStrings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +79,8 @@
 		7197F0532119623E00F081D7 /* KthLargestElementInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementInArray.swift; sourceTree = "<group>"; };
 		C9997B8F21220321002446E4 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		C9997B922122045C002446E4 /* DataModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelTests.swift; sourceTree = "<group>"; };
+		C9ACAEF72124A40500E479C9 /* LongestValidParenthesisStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestValidParenthesisStrings.swift; sourceTree = "<group>"; };
+		C9ACAEF92124A51D00E479C9 /* LongestValidParenStringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestValidParenStringsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +165,7 @@
 				7197F0442117C75300F081D7 /* GroupAnagrams.swift */,
 				7197F0462118012C00F081D7 /* RegexMatching.swift */,
 				7197F0532119623E00F081D7 /* KthLargestElementInArray.swift */,
+				C9ACAEF72124A40500E479C9 /* LongestValidParenthesisStrings.swift */,
 			);
 			path = Tis;
 			sourceTree = "<group>";
@@ -179,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				7197F050211807E100F081D7 /* RegexMatchingTest.swift */,
+				C9ACAEF92124A51D00E479C9 /* LongestValidParenStringsTests.swift */,
 			);
 			path = Tis;
 			sourceTree = "<group>";
@@ -298,6 +305,7 @@
 				7197F0222116ADA100F081D7 /* Queue.swift in Sources */,
 				7197F0542119623E00F081D7 /* KthLargestElementInArray.swift in Sources */,
 				7197F00E2116881500F081D7 /* main.swift in Sources */,
+				C9ACAEF82124A40500E479C9 /* LongestValidParenthesisStrings.swift in Sources */,
 				7197F0432117C44700F081D7 /* Subsets.swift in Sources */,
 				7197F01B21168DDF00F081D7 /* HammingDistance.swift in Sources */,
 				7197F01D2116AB1D00F081D7 /* LevelOrderTraversal.swift in Sources */,
@@ -311,10 +319,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7197F051211807E100F081D7 /* RegexMatchingTest.swift in Sources */,
+				C9ACAEFA2124A51D00E479C9 /* LongestValidParenStringsTests.swift in Sources */,
 				7197F0392116B98400F081D7 /* TreeNodeTest.swift in Sources */,
 				7197F04C211804FE00F081D7 /* String+.swift in Sources */,
 				7197F0372116B51E00F081D7 /* ListNode.swift in Sources */,
 				7197F03F2117AC4500F081D7 /* Heap.swift in Sources */,
+				C9ACAEFB2124A54F00E479C9 /* LongestValidParenthesisStrings.swift in Sources */,
 				7197F0342116B35900F081D7 /* QueueTest.swift in Sources */,
 				C9997B942122048A002446E4 /* DataModel.swift in Sources */,
 				7197F0352116B51E00F081D7 /* TreeNode.swift in Sources */,

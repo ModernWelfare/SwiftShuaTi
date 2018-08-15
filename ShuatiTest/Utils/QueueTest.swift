@@ -9,8 +9,6 @@
 import Foundation
 import XCTest
 
-@testable import SwiftShuati
-
 class QueueTest: XCTestCase {
     func test() {
         let queue = Queue<Int>()
