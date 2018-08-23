@@ -26,7 +26,6 @@ class LongestValidParenStringsTests: XCTestCase {
         print(solution.longestValidParens(input: "())"))
         print(solution.longestValidParens(input: "())("))
         print(solution.longestValidParens(input: "())())"))
-        print(solution.longestValidParens(input: "(a)a)())"))
     }
     
     func testString() {
