@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7176C202212E750800FBF287 /* QuickSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7176C201212E750800FBF287 /* QuickSelect.swift */; };
+		7176C204212E76AE00FBF287 /* QuickSelectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7176C203212E76AE00FBF287 /* QuickSelectTest.swift */; };
+		7176C205212E76E200FBF287 /* QuickSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7176C201212E750800FBF287 /* QuickSelect.swift */; };
 		7197F00E2116881500F081D7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F00D2116881500F081D7 /* main.swift */; };
 		7197F0152116883300F081D7 /* MergeArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0142116883300F081D7 /* MergeArrays.swift */; };
 		7197F01721168A2700F081D7 /* TwoSums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F01621168A2700F081D7 /* TwoSums.swift */; };
@@ -54,6 +57,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7176C201212E750800FBF287 /* QuickSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSelect.swift; sourceTree = "<group>"; };
+		7176C203212E76AE00FBF287 /* QuickSelectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSelectTest.swift; sourceTree = "<group>"; };
 		7197F00A2116881500F081D7 /* SwiftShuati */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftShuati; sourceTree = BUILT_PRODUCTS_DIR; };
 		7197F00D2116881500F081D7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7197F0142116883300F081D7 /* MergeArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeArrays.swift; sourceTree = "<group>"; };
@@ -166,6 +171,7 @@
 				7197F0462118012C00F081D7 /* RegexMatching.swift */,
 				7197F0532119623E00F081D7 /* KthLargestElementInArray.swift */,
 				C9ACAEF72124A40500E479C9 /* LongestValidParenthesisStrings.swift */,
+				7176C201212E750800FBF287 /* QuickSelect.swift */,
 			);
 			path = Tis;
 			sourceTree = "<group>";
@@ -186,6 +192,7 @@
 			children = (
 				7197F050211807E100F081D7 /* RegexMatchingTest.swift */,
 				C9ACAEF92124A51D00E479C9 /* LongestValidParenStringsTests.swift */,
+				7176C203212E76AE00FBF287 /* QuickSelectTest.swift */,
 			);
 			path = Tis;
 			sourceTree = "<group>";
@@ -298,6 +305,7 @@
 				7197F0452117C75300F081D7 /* GroupAnagrams.swift in Sources */,
 				7197F03E2117AC4500F081D7 /* Heap.swift in Sources */,
 				7197F01721168A2700F081D7 /* TwoSums.swift in Sources */,
+				7176C202212E750800FBF287 /* QuickSelect.swift in Sources */,
 				7197F0242116AF9000F081D7 /* ListNode.swift in Sources */,
 				C9997B9021220321002446E4 /* DataModel.swift in Sources */,
 				7197F0152116883300F081D7 /* MergeArrays.swift in Sources */,
@@ -329,8 +337,10 @@
 				C9997B942122048A002446E4 /* DataModel.swift in Sources */,
 				7197F0352116B51E00F081D7 /* TreeNode.swift in Sources */,
 				7197F04B2118047B00F081D7 /* StringTest.swift in Sources */,
+				7176C204212E76AE00FBF287 /* QuickSelectTest.swift in Sources */,
 				7197F0362116B51E00F081D7 /* Queue.swift in Sources */,
 				C9997B932122045C002446E4 /* DataModelTests.swift in Sources */,
+				7176C205212E76E200FBF287 /* QuickSelect.swift in Sources */,
 				7197F03D21179D0000F081D7 /* HeapTest.swift in Sources */,
 				7197F0522118081C00F081D7 /* RegexMatching.swift in Sources */,
 			);
