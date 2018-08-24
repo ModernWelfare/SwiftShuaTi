@@ -36,6 +36,9 @@
 		7197F051211807E100F081D7 /* RegexMatchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F050211807E100F081D7 /* RegexMatchingTest.swift */; };
 		7197F0522118081C00F081D7 /* RegexMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0462118012C00F081D7 /* RegexMatching.swift */; };
 		7197F0542119623E00F081D7 /* KthLargestElementInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0532119623E00F081D7 /* KthLargestElementInArray.swift */; };
+		C962A8EE212F280000EFBDC3 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962A8ED212F280000EFBDC3 /* Trie.swift */; };
+		C962A8F0212F37B500EFBDC3 /* TrieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962A8EF212F37B500EFBDC3 /* TrieTests.swift */; };
+		C962A8F1212F381600EFBDC3 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962A8ED212F280000EFBDC3 /* Trie.swift */; };
 		C9997B9021220321002446E4 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9997B8F21220321002446E4 /* DataModel.swift */; };
 		C9997B932122045C002446E4 /* DataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9997B922122045C002446E4 /* DataModelTests.swift */; };
 		C9997B942122048A002446E4 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9997B8F21220321002446E4 /* DataModel.swift */; };
@@ -82,6 +85,8 @@
 		7197F04A2118047B00F081D7 /* StringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
 		7197F050211807E100F081D7 /* RegexMatchingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexMatchingTest.swift; sourceTree = "<group>"; };
 		7197F0532119623E00F081D7 /* KthLargestElementInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementInArray.swift; sourceTree = "<group>"; };
+		C962A8ED212F280000EFBDC3 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		C962A8EF212F37B500EFBDC3 /* TrieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieTests.swift; sourceTree = "<group>"; };
 		C9997B8F21220321002446E4 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		C9997B922122045C002446E4 /* DataModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelTests.swift; sourceTree = "<group>"; };
 		C9ACAEF72124A40500E479C9 /* LongestValidParenthesisStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestValidParenthesisStrings.swift; sourceTree = "<group>"; };
@@ -143,6 +148,7 @@
 				7197F0232116AF9000F081D7 /* ListNode.swift */,
 				7197F03A2116BAF300F081D7 /* Heap.swift */,
 				7197F048211802FF00F081D7 /* String+.swift */,
+				C962A8ED212F280000EFBDC3 /* Trie.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -150,8 +156,8 @@
 		7197F02D2116B35000F081D7 /* ShuatiTest */ = {
 			isa = PBXGroup;
 			children = (
-				C9997B9121220443002446E4 /* Experiments */,
 				7197F0302116B35000F081D7 /* Info.plist */,
+				C9997B9121220443002446E4 /* Experiments */,
 				7197F04F211807D400F081D7 /* Tis */,
 				7197F04E211807CB00F081D7 /* Utils */,
 			);
@@ -183,6 +189,7 @@
 				7197F0382116B98400F081D7 /* TreeNodeTest.swift */,
 				7197F03C21179D0000F081D7 /* HeapTest.swift */,
 				7197F04A2118047B00F081D7 /* StringTest.swift */,
+				C962A8EF212F37B500EFBDC3 /* TrieTests.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -311,6 +318,7 @@
 				7197F0152116883300F081D7 /* MergeArrays.swift in Sources */,
 				7197F0472118012C00F081D7 /* RegexMatching.swift in Sources */,
 				7197F0222116ADA100F081D7 /* Queue.swift in Sources */,
+				C962A8EE212F280000EFBDC3 /* Trie.swift in Sources */,
 				7197F0542119623E00F081D7 /* KthLargestElementInArray.swift in Sources */,
 				7197F00E2116881500F081D7 /* main.swift in Sources */,
 				C9ACAEF82124A40500E479C9 /* LongestValidParenthesisStrings.swift in Sources */,
@@ -335,6 +343,8 @@
 				C9ACAEFB2124A54F00E479C9 /* LongestValidParenthesisStrings.swift in Sources */,
 				7197F0342116B35900F081D7 /* QueueTest.swift in Sources */,
 				C9997B942122048A002446E4 /* DataModel.swift in Sources */,
+				C962A8F0212F37B500EFBDC3 /* TrieTests.swift in Sources */,
+				C962A8F1212F381600EFBDC3 /* Trie.swift in Sources */,
 				7197F0352116B51E00F081D7 /* TreeNode.swift in Sources */,
 				7197F04B2118047B00F081D7 /* StringTest.swift in Sources */,
 				7176C204212E76AE00FBF287 /* QuickSelectTest.swift in Sources */,
