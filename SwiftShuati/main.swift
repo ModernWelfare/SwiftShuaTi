@@ -8,6 +8,3 @@
 
 import Foundation
 
-print("Hello world!")
-
-print(Float("0.091e9"))
