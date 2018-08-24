@@ -10,10 +10,9 @@ import Foundation
 
 class StringProblems {
 
-    func atoi(input: String) -> Int {
-        let pattern = "[a-z]*"
-        let regex = NSRegularExpression(pattern: pattern, options: [])
-        return regex.matches(in: input, options: [], range: NSRange(location: 0, length: input.count))
+    func atoi(input: String) -> Float {
+        // Swift's string conversion is actually quite powerful, we don't
+        // need to do anything here.
+        return Float(input) ?? 0.0
     }
-
 }
