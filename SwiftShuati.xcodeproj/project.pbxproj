@@ -13,6 +13,8 @@
 		717A2B7D212E7E11009C55E9 /* Palindromes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A2B7C212E7E11009C55E9 /* Palindromes.swift */; };
 		717A2B7F212E8204009C55E9 /* PalindromesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A2B7E212E8204009C55E9 /* PalindromesTest.swift */; };
 		717A2B80212E8268009C55E9 /* Palindromes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A2B7C212E7E11009C55E9 /* Palindromes.swift */; };
+		717A2B82212E85AD009C55E9 /* StringProblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A2B81212E85AD009C55E9 /* StringProblems.swift */; };
+		717A2B83212E85B0009C55E9 /* StringProblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A2B81212E85AD009C55E9 /* StringProblems.swift */; };
 		7197F00E2116881500F081D7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F00D2116881500F081D7 /* main.swift */; };
 		7197F0152116883300F081D7 /* MergeArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0142116883300F081D7 /* MergeArrays.swift */; };
 		7197F01721168A2700F081D7 /* TwoSums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F01621168A2700F081D7 /* TwoSums.swift */; };
@@ -67,6 +69,7 @@
 		7176C203212E76AE00FBF287 /* QuickSelectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSelectTest.swift; sourceTree = "<group>"; };
 		717A2B7C212E7E11009C55E9 /* Palindromes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindromes.swift; sourceTree = "<group>"; };
 		717A2B7E212E8204009C55E9 /* PalindromesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromesTest.swift; sourceTree = "<group>"; };
+		717A2B81212E85AD009C55E9 /* StringProblems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProblems.swift; sourceTree = "<group>"; };
 		7197F00A2116881500F081D7 /* SwiftShuati */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftShuati; sourceTree = BUILT_PRODUCTS_DIR; };
 		7197F00D2116881500F081D7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7197F0142116883300F081D7 /* MergeArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeArrays.swift; sourceTree = "<group>"; };
@@ -184,6 +187,7 @@
 				C9ACAEF72124A40500E479C9 /* LongestValidParenthesisStrings.swift */,
 				7176C201212E750800FBF287 /* QuickSelect.swift */,
 				717A2B7C212E7E11009C55E9 /* Palindromes.swift */,
+				717A2B81212E85AD009C55E9 /* StringProblems.swift */,
 			);
 			path = Tis;
 			sourceTree = "<group>";
@@ -333,6 +337,7 @@
 				717A2B7D212E7E11009C55E9 /* Palindromes.swift in Sources */,
 				7197F01B21168DDF00F081D7 /* HammingDistance.swift in Sources */,
 				7197F01D2116AB1D00F081D7 /* LevelOrderTraversal.swift in Sources */,
+				717A2B83212E85B0009C55E9 /* StringProblems.swift in Sources */,
 				7197F049211802FF00F081D7 /* String+.swift in Sources */,
 				7197F01921168B7700F081D7 /* ValidParenthesis.swift in Sources */,
 			);
@@ -361,6 +366,7 @@
 				717A2B80212E8268009C55E9 /* Palindromes.swift in Sources */,
 				7176C205212E76E200FBF287 /* QuickSelect.swift in Sources */,
 				7197F03D21179D0000F081D7 /* HeapTest.swift in Sources */,
+				717A2B82212E85AD009C55E9 /* StringProblems.swift in Sources */,
 				717A2B7F212E8204009C55E9 /* PalindromesTest.swift in Sources */,
 				7197F0522118081C00F081D7 /* RegexMatching.swift in Sources */,
 			);
