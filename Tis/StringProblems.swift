@@ -15,4 +15,17 @@ class StringProblems {
         // need to do anything here.
         return Float(input) ?? 0.0
     }
+
+    func areAnagrams(_ first: String, and second: String) -> Bool {
+        let filteredFirst = first.replacingOccurrences(of: " ", with: "").lowercased()
+        let filteredSecond = second.replacingOccurrences(of: " ", with: "").lowercased()
+
+        return filteredFirst.sorted() == filteredSecond.sorted()
+    }
+
+    func arePalindromes(_ input: String) -> Bool {
+        let filteredInput = input.filter { $0 != Character(" ") }
+
+        return filteredInput == String(filteredInput.reversed())
+    }
 }
