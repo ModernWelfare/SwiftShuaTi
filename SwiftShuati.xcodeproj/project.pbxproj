@@ -21,6 +21,7 @@
 		717A2B8B2130B9C4009C55E9 /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A2B8A2130B9C4009C55E9 /* Console.swift */; };
 		717A2B8D2130C638009C55E9 /* Panagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A2B8C2130C638009C55E9 /* Panagram.swift */; };
 		717A2B8F2130C9DD009C55E9 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A2B8E2130C9DD009C55E9 /* StringTests.swift */; };
+		717A2B912130E8FA009C55E9 /* Typeahead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A2B902130E8FA009C55E9 /* Typeahead.swift */; };
 		7197F00E2116881500F081D7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F00D2116881500F081D7 /* main.swift */; };
 		7197F0152116883300F081D7 /* MergeArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0142116883300F081D7 /* MergeArrays.swift */; };
 		7197F01721168A2700F081D7 /* TwoSums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F01621168A2700F081D7 /* TwoSums.swift */; };
@@ -81,6 +82,7 @@
 		717A2B8A2130B9C4009C55E9 /* Console.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
 		717A2B8C2130C638009C55E9 /* Panagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panagram.swift; sourceTree = "<group>"; };
 		717A2B8E2130C9DD009C55E9 /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		717A2B902130E8FA009C55E9 /* Typeahead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typeahead.swift; sourceTree = "<group>"; };
 		7197F00A2116881500F081D7 /* SwiftShuati */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftShuati; sourceTree = BUILT_PRODUCTS_DIR; };
 		7197F00D2116881500F081D7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7197F0142116883300F081D7 /* MergeArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeArrays.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			children = (
 				717A2B8A2130B9C4009C55E9 /* Console.swift */,
 				717A2B8C2130C638009C55E9 /* Panagram.swift */,
+				717A2B902130E8FA009C55E9 /* Typeahead.swift */,
 			);
 			path = Console;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				7197F0542119623E00F081D7 /* KthLargestElementInArray.swift in Sources */,
 				7197F00E2116881500F081D7 /* main.swift in Sources */,
 				C9ACAEF82124A40500E479C9 /* LongestValidParenthesisStrings.swift in Sources */,
+				717A2B912130E8FA009C55E9 /* Typeahead.swift in Sources */,
 				7197F0432117C44700F081D7 /* Subsets.swift in Sources */,
 				717A2B7D212E7E11009C55E9 /* Palindromes.swift in Sources */,
 				7197F01B21168DDF00F081D7 /* HammingDistance.swift in Sources */,

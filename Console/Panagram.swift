@@ -83,7 +83,7 @@ class Panagram {
                 } else {
                     consoleIO.writeMessage("Too few arguments for option \(option.rawValue)", to: .error)
                 }
-                consoleIO.printUsage()
+                printUsage()
             } else {
                 //3
                 let first = CommandLine.arguments[2]
@@ -103,7 +103,7 @@ class Panagram {
                 } else {
                     consoleIO.writeMessage("Too few arguments for option \(option.rawValue)", to: .error)
                 }
-                consoleIO.printUsage()
+                printUsage()
             } else {
                 //5
                 let s = CommandLine.arguments[2]
@@ -112,13 +112,13 @@ class Panagram {
             }
         //6
         case .help:
-            consoleIO.printUsage()
+            printUsage()
         case .quit:
             break
         case .unknown:
             //7
             consoleIO.writeMessage("Unknown option \(value)")
-            consoleIO.printUsage()
+            printUsage()
         }
 
     }
@@ -129,5 +129,17 @@ class Panagram {
     /// - Returns: the returned enum
     func getOption(_ option: String) -> (type: OptionType, value: String) {
         return (type: OptionType(value: option), value: option)
+    }
+
+    func printUsage() {
+        let executableName = (CommandLine.arguments[0] as NSString).lastPathComponent
+
+        consoleIO.writeMessage("usage:")
+        consoleIO.writeMessage("\(executableName) -a string1 string2")
+        consoleIO.writeMessage("or")
+        consoleIO.writeMessage("\(executableName) -p string")
+        consoleIO.writeMessage("or")
+        consoleIO.writeMessage("\(executableName) -h to show usage information")
+        consoleIO.writeMessage("Type \(executableName) without an option to enter interactive mode.")
     }
 }

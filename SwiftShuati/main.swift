@@ -9,9 +9,10 @@
 import Foundation
 
 let panagram = Panagram()
+let typeahead = Typeahead()
 
 if CommandLine.argc < 2 {
-    panagram.interactiveMode()
+    typeahead.interactiveMode()
 } else {
     panagram.staticMode()
 }
