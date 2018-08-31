@@ -48,6 +48,9 @@
 		7197F051211807E100F081D7 /* RegexMatchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F050211807E100F081D7 /* RegexMatchingTest.swift */; };
 		7197F0522118081C00F081D7 /* RegexMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0462118012C00F081D7 /* RegexMatching.swift */; };
 		7197F0542119623E00F081D7 /* KthLargestElementInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0532119623E00F081D7 /* KthLargestElementInArray.swift */; };
+		71B28CB3213907F10023096D /* BinarySearchWithRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B28CB2213907F10023096D /* BinarySearchWithRange.swift */; };
+		71B28CB5213909E50023096D /* BinarySearchWithRangeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B28CB4213909E50023096D /* BinarySearchWithRangeTest.swift */; };
+		71B28CB6213909E90023096D /* BinarySearchWithRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B28CB2213907F10023096D /* BinarySearchWithRange.swift */; };
 		C962A8EE212F280000EFBDC3 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962A8ED212F280000EFBDC3 /* Trie.swift */; };
 		C962A8F0212F37B500EFBDC3 /* TrieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962A8EF212F37B500EFBDC3 /* TrieTests.swift */; };
 		C962A8F1212F381600EFBDC3 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962A8ED212F280000EFBDC3 /* Trie.swift */; };
@@ -106,6 +109,8 @@
 		7197F04A2118047B00F081D7 /* StringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
 		7197F050211807E100F081D7 /* RegexMatchingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexMatchingTest.swift; sourceTree = "<group>"; };
 		7197F0532119623E00F081D7 /* KthLargestElementInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElementInArray.swift; sourceTree = "<group>"; };
+		71B28CB2213907F10023096D /* BinarySearchWithRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchWithRange.swift; sourceTree = "<group>"; };
+		71B28CB4213909E50023096D /* BinarySearchWithRangeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchWithRangeTest.swift; sourceTree = "<group>"; };
 		C962A8ED212F280000EFBDC3 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		C962A8EF212F37B500EFBDC3 /* TrieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieTests.swift; sourceTree = "<group>"; };
 		C9997B8F21220321002446E4 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
@@ -213,6 +218,7 @@
 				7176C201212E750800FBF287 /* QuickSelect.swift */,
 				717A2B7C212E7E11009C55E9 /* Palindromes.swift */,
 				717A2B81212E85AD009C55E9 /* StringProblems.swift */,
+				71B28CB2213907F10023096D /* BinarySearchWithRange.swift */,
 			);
 			path = Tis;
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 				7176C203212E76AE00FBF287 /* QuickSelectTest.swift */,
 				717A2B7E212E8204009C55E9 /* PalindromesTest.swift */,
 				717A2B8E2130C9DD009C55E9 /* StringTests.swift */,
+				71B28CB4213909E50023096D /* BinarySearchWithRangeTest.swift */,
 			);
 			path = Tis;
 			sourceTree = "<group>";
@@ -358,6 +365,7 @@
 				7197F0472118012C00F081D7 /* RegexMatching.swift in Sources */,
 				7197F0222116ADA100F081D7 /* Queue.swift in Sources */,
 				C962A8EE212F280000EFBDC3 /* Trie.swift in Sources */,
+				71B28CB3213907F10023096D /* BinarySearchWithRange.swift in Sources */,
 				7197F0542119623E00F081D7 /* KthLargestElementInArray.swift in Sources */,
 				7197F00E2116881500F081D7 /* main.swift in Sources */,
 				C9ACAEF82124A40500E479C9 /* LongestValidParenthesisStrings.swift in Sources */,
@@ -388,6 +396,7 @@
 				7197F03F2117AC4500F081D7 /* Heap.swift in Sources */,
 				717A2B87212FBCE8009C55E9 /* FakeServerTests.swift in Sources */,
 				C9ACAEFB2124A54F00E479C9 /* LongestValidParenthesisStrings.swift in Sources */,
+				71B28CB5213909E50023096D /* BinarySearchWithRangeTest.swift in Sources */,
 				7197F0342116B35900F081D7 /* QueueTest.swift in Sources */,
 				C9997B942122048A002446E4 /* DataModel.swift in Sources */,
 				C962A8F0212F37B500EFBDC3 /* TrieTests.swift in Sources */,
@@ -403,6 +412,7 @@
 				717A2B82212E85AD009C55E9 /* StringProblems.swift in Sources */,
 				717A2B7F212E8204009C55E9 /* PalindromesTest.swift in Sources */,
 				7197F0522118081C00F081D7 /* RegexMatching.swift in Sources */,
+				71B28CB6213909E90023096D /* BinarySearchWithRange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
