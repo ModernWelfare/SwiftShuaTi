@@ -11,7 +11,7 @@ import Foundation
 /**
  Since there is no standard library I'll just do it myself, haha.
  */
-class Heap<Element: Comparable> {
+class Heap<Element> where Element: Comparable {
 
     private var elements: [Element] = []
 

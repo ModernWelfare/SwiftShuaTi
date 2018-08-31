@@ -22,4 +22,15 @@ class StringTests: XCTestCase {
     func testPalindrome() {
         XCTAssert(solution.arePalindromes("aba"))
     }
+
+    func testBinaryAdd() {
+        XCTAssertEqual(solution.binaryAdd(num1: "10", num2: "111"), "1001")
+        XCTAssertEqual(solution.binaryAdd(num1: "1", num2: "1"), "10")
+        XCTAssertEqual(solution.binaryAdd(num1: "0", num2: "111"), "111")
+        XCTAssertEqual(solution.binaryAdd(num1: "1", num2: "111"), "1000")
+    }
+
+    func testChar() {
+        XCTAssertEqual(solution.asciiValue(c: Character("A")), 65)
+    }
 }
