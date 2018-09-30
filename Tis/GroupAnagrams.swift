@@ -32,14 +32,12 @@ class GroupAnagrams {
     func encodeString(_ string: String) -> [Int] {
         var code = Array(repeating: 0, count: 26)
 
+        let baseValue: UInt32 = Character("a").unicodeScalars[Character("a").unicodeScalars.startIndex].value
         for c in string {
-            code[Int(UnicodeScalar(String(c))!.value) - Int(UnicodeScalar(String("a"))!.value)] += 1
+            let offset = c.unicodeScalars[c.unicodeScalars.startIndex].value - baseValue
+            code[Int(offset)] += 1
         }
 
         return code
-    }
-
-    func test() {
-        print(groupAnagram(strings: ["eat", "tea", "tan", "ate", "nat", "bat"]))
     }
 }
