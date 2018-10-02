@@ -22,4 +22,21 @@ class StringTest: XCTestCase {
         let substring = string[5 ..< 7]
         XCTAssertEqual(substring, "is")
     }
+
+    func testPalindrome() {
+        let solution = StringProblems()
+
+        XCTAssert(solution.isPalindrome(input: "a"))
+        XCTAssert(solution.isPalindrome(input: ""))
+        XCTAssert(solution.isPalindrome(input: "aba"))
+        XCTAssert(solution.isPalindrome(input: "ab,ba"))
+        XCTAssertFalse(solution.isPalindrome(input: "abc"))
+    }
+
+    func testAToi() {
+        let solution = StringProblems()
+        XCTAssert(solution.atoi(input: "-123") == -123)
+        XCTAssert(solution.atoi(input: "123") == 123)
+        XCTAssert(solution.atoi(input: "0") == 0)
+    }
 }

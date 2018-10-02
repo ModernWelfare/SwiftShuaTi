@@ -53,6 +53,9 @@
 		71B28CB6213909E90023096D /* BinarySearchWithRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B28CB2213907F10023096D /* BinarySearchWithRange.swift */; };
 		71B28CBE2140E8F50023096D /* GroupAnagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B28CBD2140E8F50023096D /* GroupAnagramTests.swift */; };
 		71B28CBF2140E9100023096D /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197F0442117C75300F081D7 /* GroupAnagrams.swift */; };
+		71DC3B262161A933006445C2 /* GoogleString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DC3B252161A933006445C2 /* GoogleString.swift */; };
+		71DC3B272161A9DA006445C2 /* GoogleString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DC3B252161A933006445C2 /* GoogleString.swift */; };
+		71DC3B292161AA4B006445C2 /* GoogleStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DC3B282161AA4B006445C2 /* GoogleStringTests.swift */; };
 		C962A8EE212F280000EFBDC3 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962A8ED212F280000EFBDC3 /* Trie.swift */; };
 		C962A8F0212F37B500EFBDC3 /* TrieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962A8EF212F37B500EFBDC3 /* TrieTests.swift */; };
 		C962A8F1212F381600EFBDC3 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962A8ED212F280000EFBDC3 /* Trie.swift */; };
@@ -114,6 +117,8 @@
 		71B28CB2213907F10023096D /* BinarySearchWithRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchWithRange.swift; sourceTree = "<group>"; };
 		71B28CB4213909E50023096D /* BinarySearchWithRangeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchWithRangeTest.swift; sourceTree = "<group>"; };
 		71B28CBD2140E8F50023096D /* GroupAnagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagramTests.swift; sourceTree = "<group>"; };
+		71DC3B252161A933006445C2 /* GoogleString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleString.swift; sourceTree = "<group>"; };
+		71DC3B282161AA4B006445C2 /* GoogleStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleStringTests.swift; sourceTree = "<group>"; };
 		C962A8ED212F280000EFBDC3 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		C962A8EF212F37B500EFBDC3 /* TrieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieTests.swift; sourceTree = "<group>"; };
 		C9997B8F21220321002446E4 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
@@ -222,6 +227,7 @@
 				717A2B7C212E7E11009C55E9 /* Palindromes.swift */,
 				717A2B81212E85AD009C55E9 /* StringProblems.swift */,
 				71B28CB2213907F10023096D /* BinarySearchWithRange.swift */,
+				71DC3B252161A933006445C2 /* GoogleString.swift */,
 			);
 			path = Tis;
 			sourceTree = "<group>";
@@ -249,6 +255,7 @@
 				717A2B8E2130C9DD009C55E9 /* StringTests.swift */,
 				71B28CB4213909E50023096D /* BinarySearchWithRangeTest.swift */,
 				71B28CBD2140E8F50023096D /* GroupAnagramTests.swift */,
+				71DC3B282161AA4B006445C2 /* GoogleStringTests.swift */,
 			);
 			path = Tis;
 			sourceTree = "<group>";
@@ -367,6 +374,7 @@
 				7197F0152116883300F081D7 /* MergeArrays.swift in Sources */,
 				717A2B8D2130C638009C55E9 /* Panagram.swift in Sources */,
 				7197F0472118012C00F081D7 /* RegexMatching.swift in Sources */,
+				71DC3B262161A933006445C2 /* GoogleString.swift in Sources */,
 				7197F0222116ADA100F081D7 /* Queue.swift in Sources */,
 				C962A8EE212F280000EFBDC3 /* Trie.swift in Sources */,
 				71B28CB3213907F10023096D /* BinarySearchWithRange.swift in Sources */,
@@ -391,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7197F051211807E100F081D7 /* RegexMatchingTest.swift in Sources */,
+				71DC3B272161A9DA006445C2 /* GoogleString.swift in Sources */,
 				717A2B88212FBD8B009C55E9 /* FakeServer.swift in Sources */,
 				C9ACAEFA2124A51D00E479C9 /* LongestValidParenStringsTests.swift in Sources */,
 				7197F0392116B98400F081D7 /* TreeNodeTest.swift in Sources */,
@@ -405,6 +414,7 @@
 				C9997B942122048A002446E4 /* DataModel.swift in Sources */,
 				C962A8F0212F37B500EFBDC3 /* TrieTests.swift in Sources */,
 				71B28CBF2140E9100023096D /* GroupAnagrams.swift in Sources */,
+				71DC3B292161AA4B006445C2 /* GoogleStringTests.swift in Sources */,
 				C962A8F1212F381600EFBDC3 /* Trie.swift in Sources */,
 				7197F0352116B51E00F081D7 /* TreeNode.swift in Sources */,
 				7197F04B2118047B00F081D7 /* StringTest.swift in Sources */,
