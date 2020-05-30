@@ -3,7 +3,7 @@ Shuati in Swift
 
 This is a command line app I hacked together to do ShuaTi in Swift.
 
-ShuaTi in Chinese means 刷题, tranlated to "Iterating through coding problems brainlessly".
+ShuaTi in Chinese means 刷题, tranlated to "Ploughing through coding problems".
 
 I've high hopes for this app to do more than just that.
 
